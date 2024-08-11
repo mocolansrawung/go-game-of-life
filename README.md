@@ -32,13 +32,13 @@ To run this project, you need to have Go installed on your system. You can downl
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/game-of-life-go.git
+    git clone https://github.com/mocolansrawung/go-game-of-life.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd game-of-life-go
+    cd go-game-of-life-go
     ```
 
 3. Build the project:
@@ -56,7 +56,7 @@ To run the Game of Life simulation:
 2. Execute the compiled binary:
 
     ```bash
-    ./game-of-life-go
+    ./go-game-of-life
     ```
 
 3. The program will display the grid and evolve it over multiple generations in the console.
