@@ -7,10 +7,20 @@ import (
 	"os/exec"
 )
 
-func PrintGrid(grid game.Grid) {
+type Printer interface {
+	Print(grid *game.Grid)
+}
+
+type ConsolePrinter struct{}
+
+func NewConsolePrinter() Printer {
+	return &ConsolePrinter{}
+}
+
+func (p *ConsolePrinter) Print(grid *game.Grid) {
 	clearConsole()
 
-	for _, row := range grid {
+	for _, row := range grid.Cells {
 		for _, cell := range row {
 			if cell == 1 {
 				fmt.Print("⬛")
