@@ -1,6 +1,6 @@
 # Game of Life in Go
 
-This is a Go implementation of Conway's Game of Life. It includes functionality for creating and evolving a grid of cells according to the rules of the game. The project is organized with clean code principles and utilizes interfaces for better OOP design.
+This is a Go implementation of Conway's Game of Life. It includes functionality for creating and evolving a grid of cells according to the rules of the game.
 
 ## Table of Contents
 
